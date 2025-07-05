@@ -1,5 +1,10 @@
 # Personalized Health Insurance Premium Predictor
 
+## Live Demo
+
+You can try the live version of the app here:  
+**[Predictor - Live Demo](https://personalized-health-insurance-premium-predictor.streamlit.app/)**
+
 ## **Introduction**
 
 * In the health insurance industry, accurately predicting premiums is essential for both insurers and policyholders.

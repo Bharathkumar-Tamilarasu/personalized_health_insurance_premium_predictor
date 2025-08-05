@@ -1,0 +1,27 @@
+# Defining paths for various Datasources
+datasource:
+  root_folder: data
+  folders:
+    raw: raw
+    processed: processed
+  
+  files:
+    main:
+      filename: premiums_main.xlsx
+      processed_name: premiums_main_processed.csv
+    rest:
+      filename: premiums_rest.xlsx
+      processed_name: premiums_rest_processed_with_gr.csv
+    young:
+      filename: premiums_young.xlsx
+      processed_name: premiums_young_processed.csv
+    young_gr:
+      filename: premiums_young_with_gr.xlsx
+      processed_name: premiums_young_processed_with_gr.csv
+
+# Defining paths for Serialized model
+artifacts:
+  root_folder: artifacts
+  files:
+      young: insurance_premium_pipeline_young.joblib
+      rest: insurance_premium_pipeline_rest.joblib
